@@ -1,0 +1,157 @@
+.container {
+  width: 700px;
+  background-color: #e3f6f4;
+  border: 3px solid #6bcec6;
+  margin: 60px auto 10px;
+  padding: 40px;
+}
+
+input {
+  background-color: #e3f6f4;
+  border: 2px solid #6bcec6;
+  border-radius: 5px;
+  color: #6f7474;
+  padding: 2px 4px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: #6bcec6;
+  color: #e3f6f4;
+  border: 2px solid #6bcec6;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #e3f6f4;
+  border: 2px solid #6bcec6;
+  border-radius: 5px;
+  color: #6f7474;
+  transition: all 200ms ease-in-out;
+}
+
+.current-location-button {
+  background-color: #6bcec6;
+  color: #e3f6f4;
+  border: 2px solid #6bcec6;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  width: fit-content;
+  display: inline-block;
+}
+
+.current-location-button:hover {
+  cursor: pointer;
+  background-color: #e3f6f4;
+  border: 2px solid #6bcec6;
+  border-radius: 5px;
+  color: #6f7474;
+  transition: all 200ms ease-in-out;
+}
+
+#city {
+  color: #1ab2a8;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 auto;
+  line-height: 54px;
+}
+
+#country {
+  color: #1ab2a8;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0 auto;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #6f7474;
+}
+
+div.current-temperature {
+  padding-top: 10px;
+}
+
+.current-temperature {
+  color: #1ab2a8;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: normal;
+  text-align: right;
+}
+
+.degree {
+  font-size: 24px;
+  font-weight: 400;
+  color: #1ab2a8;
+  position: relative;
+  bottom: 17px;
+}
+
+#description {
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1ab2a8;
+  text-align: center;
+}
+
+.other-current-data {
+  margin: 0 auto;
+  color: #6f7474;
+  padding: 10px 20px 20px 20px;
+}
+
+.image-current-weather {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-forecast {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.date-forecast {
+  text-align: center;
+  padding-top: 10px;
+  color: #1ab2a8;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.temperature-forecast {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  color: #6f7474;
+}
+
+.reference {
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: #1ab2a8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #60a2d7;
+}
