@@ -1,42 +1,42 @@
 .container {
   width: 700px;
-  background-color: #e3f6f4;
-  border: 3px solid #6bcec6;
+  background-color: #f6f6e3;
+  border: 3px solid #cec66b;
   margin: 60px auto 10px;
   padding: 40px;
 }
 
 input {
-  background-color: #e3f6f4;
-  border: 2px solid #6bcec6;
+  background-color: #fff;
+  border: 2px solid #cec66b;
   border-radius: 5px;
-  color: #6f7474;
+  color: #74746f;
   padding: 2px 4px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
 .submit-button {
-  background-color: #6bcec6;
-  color: #e3f6f4;
-  border: 2px solid #6bcec6;
+  background-color: #cec66b;
+  color: #f6f6e3;
+  border: 2px solid #cec66b;
   border-radius: 5px;
   display: inline-block;
 }
 
 .submit-button:hover {
   cursor: pointer;
-  background-color: #e3f6f4;
-  border: 2px solid #6bcec6;
+  background-color: #f6f6e3;
+  border: 2px solid #cec66b;
   border-radius: 5px;
-  color: #6f7474;
+  color: #74746f;
   transition: all 200ms ease-in-out;
 }
 
 .current-location-button {
-  background-color: #6bcec6;
-  color: #e3f6f4;
-  border: 2px solid #6bcec6;
+  background-color: #cec66b;
+  color: #f6f6e3;
+  border: 2px solid #cec66b;
   border-radius: 5px;
   font-size: 16px;
   font-weight: 500;
@@ -46,15 +46,15 @@ input {
 
 .current-location-button:hover {
   cursor: pointer;
-  background-color: #e3f6f4;
-  border: 2px solid #6bcec6;
+  background-color: #f4f6e3;
+  border: 2px solid #cec66b;
   border-radius: 5px;
-  color: #6f7474;
+  color: #74746f;
   transition: all 200ms ease-in-out;
 }
 
 #city {
-  color: #1ab2a8;
+  color: #74746f;
   font-weight: 700;
   font-size: 48px;
   margin: 0 auto;
@@ -62,7 +62,7 @@ input {
 }
 
 #country {
-  color: #1ab2a8;
+  color: #74746f;
   font-weight: 500;
   font-size: 24px;
   margin: 0 auto;
@@ -73,7 +73,7 @@ input {
 h5 {
   font-weight: 500;
   font-size: 16px;
-  color: #6f7474;
+  color: #cec66b;
 }
 
 div.current-temperature {
@@ -81,7 +81,7 @@ div.current-temperature {
 }
 
 .current-temperature {
-  color: #1ab2a8;
+  color: #cec66b;
   font-weight: 700;
   font-size: 48px;
   margin: 0 auto;
@@ -93,7 +93,7 @@ div.current-temperature {
 .degree {
   font-size: 24px;
   font-weight: 400;
-  color: #1ab2a8;
+  color: #cec66b;
   position: relative;
   bottom: 17px;
 }
@@ -103,13 +103,13 @@ div.current-temperature {
   text-transform: capitalize;
   font-weight: 500;
   font-size: 16px;
-  color: #1ab2a8;
+  color: #cec66b;
   text-align: center;
 }
 
 .other-current-data {
   margin: 0 auto;
-  color: #6f7474;
+  color: #74746f;
   padding: 10px 20px 20px 20px;
 }
 
@@ -128,7 +128,7 @@ div.current-temperature {
 .date-forecast {
   text-align: center;
   padding-top: 10px;
-  color: #1ab2a8;
+  color: #cec66b;
   font-weight: 500;
   margin: 0 auto;
 }
@@ -137,7 +137,7 @@ div.current-temperature {
   text-align: center;
   margin: 0 auto;
   padding-bottom: 10px;
-  color: #6f7474;
+  color: #74746f;
 }
 
 .reference {
@@ -148,10 +148,10 @@ div.current-temperature {
 }
 
 a {
-  color: #1ab2a8;
+  color: #cec66b;
   text-decoration: none;
 }
 
 a:hover {
-  color: #60a2d7;
+  color: #ead944;
 }
